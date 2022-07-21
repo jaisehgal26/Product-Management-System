@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Fragment>
+  <div
+    className="container-xxl py-6"
+  >
+    <Fade
+      bottom={true}
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="text-center mx-auto mb-5 "
+          style={
+            Object {
+              "maxwidth": " 500px",
+            }
+          }
+        >
+          <p
+            className="text-primary text-uppercase mb-2"
+          >
+            #Our Team
+          </p>
+          <h1
+            className="display-6 mb-4 Playfair"
+          >
+            We're Super Professional At Our Skills
+          </h1>
+        </div>
+        <div
+          className="row g-4"
+        >
+          <Fade
+            bottom={true}
+          >
+            <div
+              className="col-lg-3 col-md-6 "
+            >
+              <div
+                className="team-item text-center rounded overflow-hidden"
+              >
+                <img
+                  alt=""
+                  className="img-fluid"
+                  loading="lazy"
+                  src="team-1.jpg"
+                />
+                <div
+                  className="team-text"
+                >
+                  <div
+                    className="team-title"
+                  >
+                    <h5>
+                      Ernest Fraley
+                    </h5>
+                    <span>
+                      Station Chef
+                    </span>
+                  </div>
+                  <div
+                    className="team-social"
+                  >
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-facebook-f"
+                      />
+                    </Link>
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-twitter"
+                      />
+                    </Link>
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-instagram"
+                      />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Fade>
+          <Fade
+            bottom={true}
+          >
+            <div
+              className="col-lg-3 col-md-6 "
+            >
+              <div
+                className="team-item text-center rounded overflow-hidden"
+              >
+                <img
+                  alt=""
+                  className="img-fluid"
+                  loading="lazy"
+                  src="team-2.jpg"
+                />
+                <div
+                  className="team-text"
+                >
+                  <div
+                    className="team-title"
+                  >
+                    <h5>
+                      Camille Moreno
+                    </h5>
+                    <span>
+                      Deputy Chef
+                    </span>
+                  </div>
+                  <div
+                    className="team-social"
+                  >
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-facebook-f"
+                      />
+                    </Link>
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-twitter"
+                      />
+                    </Link>
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-instagram"
+                      />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Fade>
+          <Fade
+            bottom={true}
+          >
+            <div
+              className="col-lg-3 col-md-6 "
+            >
+              <div
+                className="team-item text-center rounded overflow-hidden"
+              >
+                <img
+                  alt=""
+                  className="img-fluid"
+                  loading="lazy"
+                  src="team-3.jpg"
+                />
+                <div
+                  className="team-text"
+                >
+                  <div
+                    className="team-title"
+                  >
+                    <h5>
+                      Floyd Matthews
+                    </h5>
+                    <span>
+                      Deputy Chef
+                    </span>
+                  </div>
+                  <div
+                    className="team-social"
+                  >
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-facebook-f"
+                      />
+                    </Link>
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-twitter"
+                      />
+                    </Link>
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-instagram"
+                      />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Fade>
+          <Fade
+            bottom={true}
+          >
+            <div
+              className="col-lg-3 col-md-6 "
+            >
+              <div
+                className="team-item text-center rounded overflow-hidden"
+              >
+                <img
+                  alt=""
+                  className="img-fluid"
+                  loading="lazy"
+                  src="team-4.jpg"
+                />
+                <div
+                  className="team-text"
+                >
+                  <div
+                    className="team-title"
+                  >
+                    <h5>
+                      Harold Mcdaniel
+                    </h5>
+                    <span>
+                      Executive Chef
+                    </span>
+                  </div>
+                  <div
+                    className="team-social"
+                  >
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-facebook-f"
+                      />
+                    </Link>
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-twitter"
+                      />
+                    </Link>
+                    <Link
+                      className="btn btn-square btn-light rounded-circle"
+                      to=""
+                    >
+                      <i
+                        className="fab fa-instagram"
+                      />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Fade>
+        </div>
+      </div>
+    </Fade>
+  </div>
+</Fragment>
+`;

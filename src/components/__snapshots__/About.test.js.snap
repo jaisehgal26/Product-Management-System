@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Fragment>
+  <Navbar />
+  <Suspense
+    fallback={
+      <div
+        className="center spinner-grow text-warning"
+        role="status"
+      >
+        <span
+          className="sr-only"
+        >
+          Loading...
+        </span>
+      </div>
+    }
+  >
+    <div
+      className="container-xxl py-6"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row g-5"
+        >
+          <Fade
+            bottom={true}
+          >
+            <div
+              className="col-lg-6 animate__animated animate__fadeInUp"
+            >
+              <div
+                className="row img-twice position-relative h-100"
+              >
+                <div
+                  className="col-6"
+                >
+                  <img
+                    alt=""
+                    className="img-fluid rounded"
+                    loading="lazy"
+                    src="about-1.jpg"
+                  />
+                </div>
+                <div
+                  className="col-6 align-self-end"
+                >
+                  <img
+                    alt=""
+                    className="img-fluid rounded"
+                    loading="lazy"
+                    src="about-2.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+          </Fade>
+          <Fade
+            bottom={true}
+          >
+            <div
+              className="col-lg-6 animate__animated animate__fadeInUp"
+            >
+              <div
+                className="h-100"
+              >
+                <p
+                  className="text-primary text-uppercase mb-2"
+                >
+                  # About Us
+                </p>
+                <h1
+                  className="display-6 mb-4 Playfair"
+                >
+                  We Bake Every Item From The Core Of Our Hearts
+                </h1>
+                <p
+                  className="Roboto"
+                >
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                </p>
+                <p>
+                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                </p>
+                <div
+                  className="row g-2 mb-4"
+                >
+                  <div
+                    className="col-sm-6"
+                  >
+                    <i
+                      className="fa fa-check text-primary me-2"
+                    />
+                    Quality Products
+                  </div>
+                  <div
+                    className="col-sm-6"
+                  >
+                    <i
+                      className="fa fa-check text-primary me-2"
+                    />
+                    Custom Products
+                  </div>
+                  <div
+                    className="col-sm-6"
+                  >
+                    <i
+                      className="fa fa-check text-primary me-2"
+                    />
+                    Online Order
+                  </div>
+                  <div
+                    className="col-sm-6"
+                  >
+                    <i
+                      className="fa fa-check text-primary me-2"
+                    />
+                    Home Delivery
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Fade>
+        </div>
+      </div>
+    </div>
+    <lazy />
+    <lazy />
+  </Suspense>
+  <Footer />
+</Fragment>
+`;

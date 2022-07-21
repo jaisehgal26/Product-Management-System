@@ -1,0 +1,344 @@
+{
+  "products": [
+    {
+      "productname": "Cheese Cake",
+      "img": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlZXNlY2FrZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Soft and creamy, light and fluffy, or firm and dense. Varying the oven temperature and using whole or separated eggs make all the difference.",
+      "price": "98",
+      "quantity": "3",
+      "egg": "Yes",
+      "vendor": "Jai_Sehgal",
+      "ig1": "Cream",
+      "ig2": "Cheese",
+      "ig3": "blueberry",
+      "ig4": "biscuit",
+      "id": 1
+    },
+    {
+      "productname": "Bread",
+      "img": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnJlYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": " Slightly moist, tender and Moist, tender and light Soft, springy texture, flaky crumb, with a medium crumb, with medium fine, tender and slightly moist fine grain. evenly distributed air with fine grain, thin- spaces.",
+      "price": "20",
+      "egg": "Yes",
+      "vendor": "Sahil",
+      "quantity": "4",
+      "ig1": "floor",
+      "ig2": "butter",
+      "ig3": "Yeast",
+      "ig4": "salt",
+      "id": 2
+    },
+    {
+      "productname": "peeta bread",
+      "img": "https://images.unsplash.com/photo-1511629036492-6c07153d3e83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGV0YSUyMGJyZWFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Soft and creamy, light and fluffy, or firm and dense. Varying the oven temperature and using whole or separated eggs make all the difference.",
+      "price": "78",
+      "egg": "Yes",
+      "vendor": "Jai_Sehgal",
+      "ig1": "floor",
+      "ig2": "butter",
+      "quantity": "9",
+      "ig3": "Yeast",
+      "ig4": "sugar",
+      "id": 3
+    },
+    {
+      "productname": "Sandwich",
+      "img": "https://images.unsplash.com/photo-1619096252214-ef06c45683e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c2FuZHdpY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": " Image result for sandwich description A sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein bread serves as a container or wrapper for another food type.",
+      "price": "78",
+      "egg": "Yes",
+      "vendor": "Jai_Sehgal",
+      "ig1": "Bread",
+      "quantity": "12",
+      "ig2": "Cheese",
+      "ig3": "Salt/Pepper",
+      "ig4": "Ham",
+      "id": 4
+    },
+    {
+      "productname": "Burger",
+      "img": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": " Hamburger is subsequently defined as consisting of “chopped fresh and/or frozen beef with or without the addition of beef fat as such and/or seasoning, shall not contain more than 30% fat, and shall not contain added water, phosphates, binders, or extenders”",
+      "price": "40",
+      "egg": "No",
+      "vendor": "Sahil",
+      "ig1": "Buns",
+      "quantity": "4",
+      "ig2": "Beef",
+      "ig3": "Sauces",
+      "ig4": "Cheese",
+      "id": 5
+    },
+    {
+      "productname": "cheese",
+      "img": "https://images.unsplash.com/photo-1627935722051-395636b0d8a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNoZWVzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Cheese is a dairy product produced in wide ranges of flavors, textures, and forms by coagulation of the milk protein casein. It comprises proteins and fat from milk, usually the milk of cows, buffalo, goats, or sheep",
+      "price": "149",
+      "egg": "No",
+      "vendor": "Sahil",
+      "ig1": "Cow-Milk",
+      "ig2": "Yeast",
+      "ig3": "Goat-Milk",
+      "quantity": "3",
+      "ig4": "sugar",
+      "id": 6
+    },
+    {
+      "productname": "croissant",
+      "img": "https://images.unsplash.com/photo-1501721358449-1505ca840822?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNyb2lzc2FudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "A croissant is a laminated, yeast-leavened bakery product that contains dough/roll-in fat layers to create a flaky, crispy texture. Croissants belong to the Viennoiserie or pastry category of baked goods along with brioche, Danish and puff pastries. A croissant usually contains normal levels of salt, yeast and sugar.",
+      "price": "40",
+      "egg": "Yes",
+      "vendor": "Parv",
+      "ig1": "floor",
+      "ig2": "butter",
+      "quantity": "45",
+      "ig3": "Sinimen",
+      "ig4": "sugar",
+      "id": 8
+    },
+    {
+      "productname": "Cookies",
+      "img": "https://images.unsplash.com/photo-1590080874088-eec64895b423?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29va2llc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "description": "A cookie is a baked or cooked snack or dessert that is typically small, flat and sweet. It usually contains flour, sugar, egg, and some type of oil, fat, or butter. It may include other ingredients such as raisins, oats, chocolate chips, nuts, etc",
+      "price": "39",
+      "egg": "Yes",
+      "vendor": "Parv",
+      "ig1": "floor",
+      "ig2": "butter",
+      "quantity": "8",
+      "ig3": "Yeast",
+      "ig4": "sugar",
+      "id": 9
+    },
+    {
+      "productname": "Donut",
+      "img": "https://images.unsplash.com/photo-1604287094096-59a7dee979e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZG9udXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "A doughnut is a delicious, deep-fried breakfast treat. Most doughnuts are round and have a hole in the center. Some have frosting and sprinkles, too. You can also call a doughnut a donut, a slightly more common way to spell it in North America.",
+      "price": "35",
+      "egg": "Yes",
+      "vendor": "Vivek",
+      "ig1": "floor",
+      "ig2": "butter",
+      "ig3": "Yeast",
+      "quantity": "9",
+      "ig4": "sugar",
+      "id": 10
+    },
+    {
+      "productname": "cappuccino",
+      "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "A cappuccino is the perfect balance of espresso, steamed milk and foam. This coffee is all about the structure and the even splitting of all elements into equal thirds. An expertly made cappuccino should be rich, but not acidic and have a mildly sweet flavouring from the milk.",
+      "price": "49",
+      "egg": "No",
+      "vendor": "Vivek",
+      "ig1": "Milk",
+      "ig2": "Coffee",
+      "quantity": "22",
+      "ig3": "Sugar",
+      "ig4": "Cream",
+      "id": 11
+    },
+    {
+      "productname": "Espresso",
+      "img": "https://images.unsplash.com/photo-1596018589855-e9a2a91f687f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGVzcHJlc3NvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Espresso is a concentrated form of coffee served in small, strong shots and is the base for many coffee drinks. It's made from the same beans as coffee but is stronger, thicker, and higher in caffeine. However, because espresso is typically served in smaller servings than coffee, it has less caffeine per serving.",
+      "price": "40",
+      "egg": "No",
+      "vendor": "Vivek",
+      "ig1": "Coffee",
+      "ig2": "Milk",
+      "quantity": "12",
+      "ig3": "Sugar",
+      "ig4": "Water",
+      "id": 12
+    }
+  ],
+  "contact": [
+    {
+      "name": "Aman",
+      "email": "Aman_singh@gmail.com",
+      "subject": "Cookies ",
+      "message": " I was floored when it came to my attention that you hand-made these cookies. Thank you for putting your confectionary talents on display.",
+      "id": 1
+    },
+    {
+      "name": "Tusshar",
+      "email": "TuusharRaaj@hotmail.com",
+      "subject": "Sandwich",
+      "message": "The sandwich was fantastic and delicious.",
+      "id": 2
+    },
+    {
+      "name": "Deepanshu",
+      "email": "Deepa@gmail.com",
+      "subject": "Coffee",
+      "message": "I absolutely love the coffee at your cafe. Coffee is divine, as usual. I think the taste is similar to blackberry, so it’s delicious. I’m a long-term customer for you.",
+      "id": 3
+    },
+    {
+      "name": "Akash",
+      "email": "Akash.yadav@gmail.com",
+      "subject": "Cheese Cake",
+      "message": "Ordered a cheese cake from your place and it was hands down the best cake I have ever had.",
+      "id": 4
+    }
+  ],
+  "register": [],
+  "login": [],
+  "productviewed": [
+    {
+      "productname": "Cheese Cake",
+      "id": 1
+    },
+    {
+      "productname": "Sandwich",
+      "id": 2
+    },
+    {
+      "productname": "Cookies",
+      "id": 3
+    },
+    {
+      "productname": "Donut",
+      "id": 4
+    },
+    {
+      "productname": "Bread",
+      "id": 5
+    },
+    {
+      "productname": "Cheese Cake",
+      "id": 6
+    },
+    {
+      "productname": "Cheese Cake",
+      "id": 7
+    },
+    {
+      "productname": "Sandwich",
+      "id": 8
+    },
+    {
+      "productname": "croissant",
+      "id": 9
+    },
+    {
+      "productname": "croissant",
+      "id": 10
+    },
+    {
+      "productname": "croissant",
+      "id": 11
+    },
+    {
+      "productname": "Cheese Cake",
+      "id": 12
+    },
+    {
+      "productname": "Cheese Cake",
+      "id": 13
+    },
+    {
+      "productname": "Burger",
+      "id": 14
+    },
+    {
+      "productname": "Donut",
+      "id": 15
+    },
+    {
+      "productname": "Donut",
+      "id": 16
+    },
+    {
+      "productname": "Donut",
+      "id": 17
+    },
+    {
+      "productname": "Donut",
+      "id": 18
+    },
+    {
+      "productname": "Bread",
+      "id": 19
+    },
+    {
+      "productname": "Cheese Cake",
+      "id": 20
+    },
+    {
+      "productname": "Cheese Cake",
+      "id": 21
+    },
+    {
+      "productname": "Sandwich",
+      "id": 22
+    },
+    {
+      "productname": "peeta bread",
+      "id": 23
+    },
+    {
+      "productname": "peeta bread",
+      "id": 24
+    },
+    {
+      "productname": "cappuccino",
+      "id": 25
+    },
+    {
+      "productname": "Cheese Cake",
+      "id": 26
+    },
+    {
+      "productname": "cappuccino",
+      "id": 27
+    },
+    {
+      "productname": "Cheese Cake",
+      "id": 28
+    },
+    {
+      "productname": "Cheese Cake",
+      "id": 29
+    },
+    {
+      "productname": "croissant",
+      "id": 30
+    },
+    {
+      "productname": "Cheese Cake",
+      "id": 31
+    },
+    {
+      "productname": "cheese",
+      "id": 32
+    },
+    {
+      "productname": "cheese",
+      "id": 33
+    },
+    {
+      "productname": "buns",
+      "id": 34
+    },
+    {
+      "productname": "Sandwich",
+      "id": 35
+    },
+    {
+      "productname": "cheese",
+      "id": 36
+    },
+    {
+      "productname": "cheese",
+      "id": 37
+    },
+    {
+      "productname": "cheese",
+      "id": 38
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Fragment>
+  <Navbar />
+  <Suspense
+    fallback={
+      <div
+        className="center spinner-grow text-warning"
+        role="status"
+      >
+        <span
+          className="sr-only"
+        >
+          Loading...
+        </span>
+      </div>
+    }
+  >
+    <Fade
+      bottom={true}
+    >
+      <div
+        className="container-xxl py-6"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="text-center mx-auto mb-5 "
+            style={
+              Object {
+                "maxwidth": "500px",
+              }
+            }
+          >
+            <p
+              className="text-primary text-uppercase mb-2"
+            >
+              # Contact Us
+            </p>
+            <h1
+              className="display-6 mb-4 Playfair"
+            >
+              If You Have Any Query, Please Contact Us
+            </h1>
+          </div>
+          <div
+            className="row g-0 justify-content-center"
+          >
+            <div
+              className="col-lg-8 "
+            >
+              <Formik
+                initialValues={
+                  Object {
+                    "email": "",
+                    "message": "",
+                    "name": "",
+                    "subject": "",
+                  }
+                }
+                onSubmit={[Function]}
+                validationSchema={
+                  ObjectSchema {
+                    "_blacklist": ReferenceSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_excludedEdges": Array [],
+                    "_mutate": undefined,
+                    "_nodes": Array [
+                      "message",
+                      "subject",
+                      "email",
+                      "name",
+                    ],
+                    "_sortErrors": [Function],
+                    "_typeError": [Function],
+                    "_whitelist": ReferenceSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "conditions": Array [],
+                    "deps": Array [],
+                    "exclusiveTests": Object {},
+                    "fields": Object {
+                      "email": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "email": false,
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "message": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "name": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "subject": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                    },
+                    "spec": Object {
+                      "abortEarly": true,
+                      "nullable": false,
+                      "presence": "optional",
+                      "recursive": true,
+                      "strict": false,
+                      "strip": false,
+                    },
+                    "tests": Array [],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "object",
+                  }
+                }
+              >
+                <Form>
+                  <PromptIfDirty />
+                  <div
+                    className="row g-3"
+                  >
+                    <div
+                      className="col-md-6"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="name"
+                          name="name"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="name"
+                        >
+                          Name
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="name"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-6"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="email"
+                          name="email"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="email"
+                        >
+                          Email
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="email"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-12"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="subject"
+                          name="subject"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="subject"
+                        >
+                          Subject
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="subject"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-12"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="message"
+                          name="message"
+                          style={
+                            Object {
+                              "height": "5rem",
+                            }
+                          }
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="message"
+                        >
+                          Message
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="message"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-12 text-center"
+                    >
+                      <button
+                        className="btn btn-primary rounded-pill py-3 px-5"
+                        type="submit"
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </Form>
+              </Formik>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Fade>
+  </Suspense>
+  <Footer />
+</Fragment>
+`;

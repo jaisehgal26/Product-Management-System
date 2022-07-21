@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Fade
+  bottom={true}
+>
+  <hr />
+  <ForwardRef
+    data={
+      Object {
+        "datasets": Array [
+          Object {
+            "backgroundColor": "rgba(246, 211, 101, 1)",
+            "borderColor": "rgba(253, 160, 133, 1)",
+            "data": Array [],
+            "fill": true,
+            "label": "Products Price in $",
+          },
+        ],
+        "labels": Array [],
+      }
+    }
+  />
+  <h6
+    className="text-center mt-1 Playfair"
+  >
+    Products Pricing in USD$
+  </h6>
+  <hr />
+</Fade>
+`;

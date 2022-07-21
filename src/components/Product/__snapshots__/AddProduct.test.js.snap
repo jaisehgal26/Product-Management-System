@@ -1,0 +1,726 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Fragment>
+  <Navbar />
+  <Carousel />
+  <Suspense
+    fallback={
+      <div
+        className="center spinner-grow text-warning"
+        role="status"
+      >
+        <span
+          className="sr-only"
+        >
+          Loading...
+        </span>
+      </div>
+    }
+  >
+    <Fade
+      bottom={true}
+    >
+      <div
+        className="container-xxl py-6"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="text-center mx-auto mb-5 "
+            style={
+              Object {
+                "maxwidth": "500px",
+              }
+            }
+          >
+            <p
+              className="text-primary text-uppercase mb-2"
+            >
+              # Add Product
+            </p>
+            <h1
+              className="display-6 mb-4 Playfair"
+            >
+              If You want any other product, Please Add
+            </h1>
+          </div>
+          <div
+            className="row g-0 justify-content-center"
+          >
+            <div
+              className="col-lg-8 "
+            >
+              <Formik
+                initialValues={
+                  Object {
+                    "description": "",
+                    "egg": "",
+                    "ig1": "",
+                    "ig2": "",
+                    "ig3": "",
+                    "ig4": "",
+                    "img": "",
+                    "name": "",
+                    "price": "",
+                    "vendor": "",
+                  }
+                }
+                onSubmit={[Function]}
+                validationSchema={
+                  ObjectSchema {
+                    "_blacklist": ReferenceSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_excludedEdges": Array [],
+                    "_mutate": undefined,
+                    "_nodes": Array [
+                      "ig4",
+                      "ig3",
+                      "ig2",
+                      "ig1",
+                      "vendor",
+                      "egg",
+                      "description",
+                      "price",
+                      "img",
+                      "name",
+                    ],
+                    "_sortErrors": [Function],
+                    "_typeError": [Function],
+                    "_whitelist": ReferenceSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "conditions": Array [],
+                    "deps": Array [],
+                    "exclusiveTests": Object {},
+                    "fields": Object {
+                      "description": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "egg": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "ig1": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "ig2": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "ig3": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "ig4": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "img": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "matches": false,
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "name": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                      "price": NumberSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "min": true,
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "number",
+                      },
+                      "vendor": StringSchema {
+                        "_blacklist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_blacklistError": undefined,
+                        "_mutate": undefined,
+                        "_typeError": [Function],
+                        "_whitelist": ReferenceSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_whitelistError": undefined,
+                        "conditions": Array [],
+                        "deps": Array [],
+                        "exclusiveTests": Object {
+                          "required": true,
+                        },
+                        "spec": Object {
+                          "abortEarly": true,
+                          "nullable": false,
+                          "presence": "required",
+                          "recursive": true,
+                          "strict": false,
+                          "strip": false,
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                      },
+                    },
+                    "spec": Object {
+                      "abortEarly": true,
+                      "nullable": false,
+                      "presence": "optional",
+                      "recursive": true,
+                      "strict": false,
+                      "strip": false,
+                    },
+                    "tests": Array [],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "object",
+                  }
+                }
+              >
+                <Form>
+                  <PromptIfDirty />
+                  <div
+                    className="row g-3"
+                  >
+                    <div
+                      className="col-md-6"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="name"
+                          name="name"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="name"
+                        >
+                          Product Name
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="name"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-6"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="price"
+                          name="price"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="price"
+                        >
+                          Price
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="price"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-6"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="egg"
+                          name="egg"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="egg"
+                        >
+                          Contains Egg(Yes/No)
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="egg"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-6"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="vendor"
+                          name="vendor"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="vendor"
+                        >
+                          Vendor
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="vendor"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-12"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="img"
+                          name="img"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="img"
+                        >
+                          Image URL
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="img"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-12"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="description"
+                          name="description"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="description"
+                        >
+                          Description
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="description"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-6"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="ig1"
+                          name="ig1"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="ig1"
+                        >
+                          Ingredient: 1
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="ig1"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-6"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="ig2"
+                          name="ig2"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="ig2"
+                        >
+                          Ingredient: 2
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="ig2"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-6"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="ig3"
+                          name="ig3"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="ig3"
+                        >
+                          Ingredient: 3
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="ig3"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-6"
+                    >
+                      <div
+                        className="form-floating"
+                      >
+                        <Field
+                          className="form-control"
+                          id="ig4"
+                          name="ig4"
+                          type="text"
+                        />
+                        <label
+                          className="form-label"
+                          htmlFor="ig4"
+                        >
+                          Ingredient: 4
+                        </label>
+                        <FormikConnect(ErrorMessageImpl)
+                          name="ig4"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="col-12 text-center"
+                    >
+                      <button
+                        className="form-control btn btn-primary rounded-pill py-3 px-5"
+                        type="submit"
+                      >
+                        Add Product
+                      </button>
+                    </div>
+                    <div
+                      className="w-100 text-center mt-2"
+                    >
+                      <Link
+                        to="/products"
+                      >
+                        Cancel
+                      </Link>
+                    </div>
+                  </div>
+                </Form>
+              </Formik>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Fade>
+  </Suspense>
+  <Footer />
+</Fragment>
+`;
